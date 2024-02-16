@@ -84,7 +84,10 @@ service rusk start
 ```shell
 grep "block accepted" /var/log/rusk.log
 ```
-
+YADA
+```
+tail -f /var/log/rusk.log | grep "block accepted"
+```
 ![image](https://github.com/HerculesNode/Dusk-Node/assets/101635385/cf2e32ec-d550-4c35-b467-d9ae9fbc20b9)
 
 
